@@ -283,7 +283,7 @@ ${prefix}queue ⇏ ♠لمعرفة قآئمة التشغيل❗
 
 
 client.on('ready', () => {
-client.user.setGame('Music II 2Play ','https://www.twitch.tv/kemo355');
+client.user.setGame('Music II -Play ','https://www.twitch.tv/kemo355');
 console.log('Logging into discord..');
 console.log(`
 By MR_Phantom
@@ -301,6 +301,6 @@ By MR_Phantom
 
 
 client.on('ready',async () => {
-  client.channels.find(ch => ch.id === "522362656531677184" && ch.type === 'voice').join();
+  client.channels.find(ch => ch.id === "527128521819029528" && ch.type === 'voice').join();
 });
 client.login(process.env.BOT_TOKEN);
