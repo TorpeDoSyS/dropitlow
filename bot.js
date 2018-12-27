@@ -37,7 +37,7 @@ const queue = new Map();
  
  
  
-var prefix = "-" 
+var prefix = "1" 
 client.on('message', async msg => {
     if (msg.author.bot) return undefined;
    
@@ -88,7 +88,7 @@ client.on('message', async msg => {
                     .setDescription(`**الرجآء من حضرتك إختيآر رقم المقطع** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
  
-                    .setFooter("By @!        Ҝ€₥σ★ᶜᶰ#7830  ")
+                    .setFooter("By TorpeDEoSyS  ")
                     msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
                    
                     // eslint-disable-next-line max-depth
@@ -301,6 +301,6 @@ By MR_Phantom
 
 
 client.on('ready',async () => {
-  client.channels.find(ch => ch.id === "527128521819029528" && ch.type === 'voice').join();
+  client.channels.find(ch => ch.id === "515106841315901451" && ch.type === 'voice').join();
 });
 client.login(process.env.BOT_TOKEN);
